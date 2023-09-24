@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "teach-service-test-task"
+version = "0.1.0"
+description = ""
+authors = ["Amir Mustafaev <amir.mustafaev@mentalsea.com>"]
+readme = "README.md"
+packages = [{include = "teach_service_test_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.5"
+django-debug-toolbar = "^4.2.0"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
